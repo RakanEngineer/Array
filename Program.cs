@@ -19,7 +19,15 @@ namespace Array
             {
                 WriteLine(weekday);
             }
-           
+            //string[] weekdays = new string[7];
+            for (int i = 0; i < weekdays.Length; i++)
+            {
+                weekdays[i] = ReadLine();
+            }
+            foreach (string weekday in weekdays)
+            {
+                WriteLine(weekday);
+            }
         }
     }
 }
